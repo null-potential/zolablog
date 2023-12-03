@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://empty.win/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:base="http://purl.org/atompub/base/1.0/" xml:lang="en" xml:base="https:&#x2F;&#x2F;empty.win">
+    <str:translations xmlns:str="https://github.com/welpo/tabi">
+        <str:about_feeds>This is a web feed, also known as an Atom feed. Subscribe by copying the URL from the address bar into your newsreader. Visit About Feeds to learn more and get started. It's free.</str:about_feeds>
+        <str:visit_the_site>Visit website</str:visit_the_site>
+        <str:recent_posts>Recent posts</str:recent_posts>
+    </str:translations><link rel="extra-stylesheet" href="https://empty.win/skins/seaglow.css?h=9df0e3524f8e0195e96e" /><title>null potential - meta</title>
+    <link href="https://empty.win/tags/meta/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://empty.win"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-12-01T00:00:00+00:00</updated>
+    <id>https://empty.win/tags/meta/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Test Post</title>
+        <published>2023-12-01T00:00:00+00:00</published>
+        <updated>2023-12-01T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://empty.win/blog/testpost/" type="text/html"/>
+        <id>https://empty.win/blog/testpost/</id>
+        <summary type="html">Please ignore.</summary>
+        </entry>
+</feed>

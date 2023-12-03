@@ -1,20 +1,48 @@
-# The URL the site will be built for
 base_url = "https://empty.win"
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
-
 theme = "tabi"
-
 title = "null potential"
+minify_html = true
+taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+external_links_target_blank = true
 highlight_code = true
+highlight_theme = "ayu-dark"
+default_language = "en"
 
 [extra]
-# Put all your custom variables here
+theme_switcher = true
+default_theme = "dark"
+long_date_format = "%Y %B %e (%A)"
+short_date_format = "%Y-%m-%d"
+browser_theme_colour = ["#ffffff", "#18d1c5"]
+favicon = "/images/fire.gif"
+skin = "seaglow"
+
+menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "tags", url = "tags", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = true },
+    { name = "projects", url = "projects", trailing_slash = true },
+]
+
+remote_repository_url = "https://codeberg.org/nullpotential/zolablog"
+remote_repository_git_platform = "auto"
+remote_repository_branch = "main"
+show_remote_changes = true
+show_remote_source = true
+
+[extra.isso]
+enabled_for_all_posts = true
+automatic_loading = true
+endpoint_url = "https://comments.empty.win/"  # URL to Isso host.
+page_id_is_slug = true
+lang = ""
+max_comments_top = "inf"
+max_comments_nested = "5"
+avatar = true
+voting = true
+page_author_hashes = ""
+lazy_loading = true

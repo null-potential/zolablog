@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://empty.win/sitemap_style.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://empty.win/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/about/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/archive/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/blog/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/blog/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/blog/testpost/</loc>
+        <lastmod>2023-12-01</lastmod>
+    </url>
+    <url>
+        <loc>https://empty.win/projects/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/projects/zolaposta/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/tags/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/tags/meta/</loc>
+    </url>
+    <url>
+        <loc>https://empty.win/tags/testing/</loc>
+    </url>
+</urlset>
